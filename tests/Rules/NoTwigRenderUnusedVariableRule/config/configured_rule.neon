@@ -1,0 +1,7 @@
+includes:
+    - ../../../config/included_services.neon
+
+services:
+    -
+        class: Reveal\RevealTwig\Rules\NoTwigRenderUnusedVariableRule
+        tags: [phpstan.rules.rule]
