@@ -4,7 +4,7 @@
     "description": "Rules for static analysis of TWIG templates and TWIG render() methods",
     "license": "MIT",
     "require": {
-        "php": ">=7.2",
+        "php": ">=8.1",
         "twig/twig": "^3.3",
         "symplify/astral": "^10.0",
         "symplify/rule-doc-generator-contracts": "^10.2",
